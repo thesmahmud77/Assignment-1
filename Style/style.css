@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    background-color: #F5F8FF;
 }
 
 /* Adding Font */
@@ -17,7 +18,8 @@ header{
     /* background-color: aqua; */
     background-image: url('../Assets/Hero-bg.png');
     width: 100%;
-    height: 100vh;
+    height: 80vh;
+    opacity: 0.8;
 }
 nav{
     display: flex;
@@ -51,6 +53,66 @@ nav{
 .hero-h{
     font-size: 65px;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
+/* Action Style */
+
+main{
+    padding: 0px 220px;
+}
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    column-gap: 50%;
+    margin: 200px 50px;
+}
+
+.action-content{
+    display: block;
+    text-align: start;
+}
+.action-h{
+    font-size: 42px;
+    font-weight: bold;
+}
+.action-para{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    margin: 25px 50px 25px 0px;
+    text-align: start;
+
+}
+
+.action-image{
+    border-radius: 50px;
+}
+
+/* Productive Users */
+.productive-user{
+    display: block;
+    width: 1140px;
+    height: 350px;
+    background-color: aqua;
+}
+.pu-main-heading{
+    font-size: 38px;
+}
+.pu-bold-content-Wra{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+}
+.pu-heading{
+    font-size: 80px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+
+.pu-para{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
