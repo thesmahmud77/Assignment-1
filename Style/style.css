@@ -95,15 +95,19 @@ main{
 /* Productive Users */
 
 .productive-user{
+
     background-color: rgba(51, 45, 236, 0.1);
     text-align: center;
+    /* width: 1140px;
+    height: 500px; */
     margin: 50px 150px;
-    padding: 100px;
+    padding: 50px;
 }
 .pu-content-Wra{
     display: flex;
     justify-content: space-evenly;
-
+    margin: none;
+    padding: none;
 }
 
 .pu-main-heading{
@@ -184,6 +188,10 @@ main{
     display: block;
     align-items: center;
     justify-content: space-evenly;
+}
+.focus-image-container{
+    text-align: center;
+    margin-top: 50px;
 }
 .focus-container{
     display: block;
