@@ -294,7 +294,7 @@ main{
 .foooter-para{
     font-size: 16px;
     color: #8987A1;
-    padding: 0px 700px;
+    padding: 0px auto;
 }
 .footer-nav{
     display: block;
