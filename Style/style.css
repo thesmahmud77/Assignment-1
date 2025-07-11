@@ -32,9 +32,10 @@ nav{
     font-weight: 900;
     color: #4E47FF;
 }
-.btn-Primary{
-    /* width: 132px;
-    height: 48px; */
+
+/* Hover Button */
+
+.btn-Primary {
     border-radius: 10px;
     color: white;
     border: none;
@@ -42,6 +43,18 @@ nav{
     font-size: 16px;
     font-weight: bold;
     padding: 20px 45px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-Primary:hover {
+    background-color: #dc2626;
+    border: #8f8cfd solid 2px;
+}
+
+.btn-Primary:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5);
 }
 
 /* Hero Style */
@@ -70,6 +83,7 @@ main{
     gap: 50px ;
     padding: 50px;
     align-items: center;
+    margin-top: 150px;
 }
 
 .action-content{
@@ -97,17 +111,17 @@ main{
 .productive-user{
 
     background-color: rgba(51, 45, 236, 0.1);
+    background-size: cover;
     text-align: center;
     /* width: 1140px;
     height: 500px; */
-    margin: 50px 150px;
-    padding: 50px;
+    margin: 20px;
+    padding: 100px;
+    border-radius: 24px;
 }
 .pu-content-Wra{
     display: flex;
     justify-content: space-evenly;
-    margin: none;
-    padding: none;
 }
 
 .pu-main-heading{
@@ -131,6 +145,7 @@ main{
 .user{
     display: block;
     text-align: center;
+    margin-top: 135px;
 }
 .User-main-Heading{
     font-size: 42px;
@@ -188,6 +203,7 @@ main{
     display: block;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 150px;
 }
 .focus-image-container{
     text-align: center;
@@ -222,9 +238,10 @@ main{
 
 .news-container{
     display: flex;
-    margin: 120px 50px;
+    margin: 180px 50px;
     align-items: center;
     justify-content: space-evenly;
+   
 }
 .new-from{
     display: block;
@@ -236,29 +253,43 @@ main{
 .from-label{
     font-size: 18px;
     font-weight: 700;
-}
-.input-label-wra{
-    display: block;
+    
 }
 .from-field{
-    padding: 20px 100px 20px 10px;
-    margin-top: 20px;
-    margin-top: 10px;
+    width: 100%;
+    padding: 20px ;
+    margin-bottom: 20px;
     row-gap: 10px;
+    border: #757575 solid 1px;
+    border-radius: 8px;
+}
+.new-main-heading{
+    font-size: 72px;
+}
+.btn-news{
+    width: 110%;
 }
 
 
 /* Footer */
 
-footer{
+.footer-container{
     display: block;
     align-items: center;
     text-align: center;
+    /* background-color: #E2EAFF; */
+    width: 100%;
+    height: 500PX;
+    /* background-color: #4E47FF; */
+    margin-top: 150px;
+
 }
 
 .footer-heading{
     font-size: 100px;
     font-weight: 800;
+    color: #4E47FF;
+
 }
 .foooter-para{
     font-size: 16px;
@@ -268,5 +299,14 @@ footer{
 .footer-nav{
     display: block;
     color: #8987A1;
-    column-gap: 20px;
+    gap: 50px;
+    margin-top: 20px;
+    
+}
+.footer-icon{
+    /* display: block; */
+    justify-content: space-between;
+    margin-right: 20px;
+    color: #8987A1;
+    font-size: 16px;
 }
